@@ -1,0 +1,98 @@
+(ExpressProject "EE3114 Hwk0 Resistor Divider"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\ee3114 hwk0 resistor divider.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File
+       ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\dc bias.sim"
+        (DisplayName "SCHEMATIC1-DC Bias")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\dc sweep.sim"
+        (DisplayName "SCHEMATIC1-DC Sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\component sweep.sim"
+        (DisplayName "SCHEMATIC1-Component Sweep")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\components sweep.sim"
+        (DisplayName "SCHEMATIC1-Components Sweep")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\sinusoid.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ee3114 hwk0 resistor divider-pspicefiles\schematic1\sinusoid.sim"
+        (DisplayName "SCHEMATIC1-Sinusoid")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.3_DEMO\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PARAM
+      (FullPartName "PARAM.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.3_DEMO\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.3_DEMO\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.3_DEMO\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.3_DEMO\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\OrCAD\OrCAD_16.3_Demo\tools\capture\library\pspice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 186"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 231 1224 4 228")
+        (Scroll "271 222")
+        (Zoom "216")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\KPAPA01\DESKTOP\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 FUNDAMENTALS OF ELECTRONICS I\ORCAD CAPTURE CIS DEMO\HW 00\EE3114 HWK0 RESISTOR DIVIDER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "kpapa01"))

@@ -1,0 +1,8 @@
+* source EE3114 HW03 Q05
+R_R1         N00987 N00378  200 TC=0,0 
+C_C1         N00412 N00378 5000uF TC=0
+I_I2         N00419 N00412 DC 10mA  
+V_V6         N00419 0 5V
+X_D1         N00412 0 awb1n4148 PARAMS:                
+V_V7         N00987 0  
++SIN 0 50mV 1k 0 0 0

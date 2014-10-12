@@ -1,0 +1,13 @@
+* source HW04 MOSFET
+X_Q1         N00301 N00258 0 0 awbvn2222 PARAMS:                               
++                 
+V_V1         N00182 0  
++SIN 0 0.1mV 1k 0 0 0
+R_R4         N00182 N00246  2k TC=0,0 
+R_R2         N00258 N00307  100k TC=0,0 
+R_R3         0 N00258  150k TC=0,0 
+R_R1         N00301 N00307  8k TC=0,0 
+R_R5         0 N00357  100000k TC=0,0 
+C_C1         N00258 N00246 1000u TC=0
+C_C2         N00357 N00301 1000u TC=0
+V_V2         N00307 0 5Vdc

@@ -1,0 +1,41 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("R")
+        ("Param")
+    )
+    ("instances"
+        ("R1"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R1")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"2k")
+                    ("pspice_param"	"VALUE")
+                )
+            )
+        )
+        ("R2"
+            ("device_name"	"R")
+            ("pspice_path"	"R_R2")
+            ("level"	"0")
+            ("model_params"
+                ("VALUE"
+                    ("value"	"{Rval}")
+                    ("pspice_param"	"VALUE")
+                )
+            )
+        )
+        ("PARAM"
+            ("device_name"	"Param")
+            ("pspice_path"	"")
+            ("level"	"0")
+            ("model_params"
+                ("rval"
+                    ("value"	"1k")
+                    ("pspice_param"	"rval")
+                )
+            )
+        )
+    )
+)

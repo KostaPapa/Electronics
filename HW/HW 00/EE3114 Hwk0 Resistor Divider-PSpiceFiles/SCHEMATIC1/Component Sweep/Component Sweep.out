@@ -1,0 +1,57 @@
+
+**** 02/02/13 19:02:07 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Component Sweep"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electro
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Component Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN PARAM Rval 1k 10k 1 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EE3114 HWK0 RESISTOR DIVIDER
+R_R1         N00172 N00179  2k TC=0,0 
+R_R2         0 N00179  {Rval} TC=0,0 
+V_V1         N00172 0 10Vdc
+.PARAM  rval=1k
+
+**** RESUMING "Component Sweep.cir" ****
+.END
+
+
+          JOB CONCLUDED
+
+**** 02/02/13 19:02:07 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-Component Sweep"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electro
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .55
+

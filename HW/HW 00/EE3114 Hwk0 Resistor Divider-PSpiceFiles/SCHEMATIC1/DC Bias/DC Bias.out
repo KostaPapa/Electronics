@@ -1,0 +1,83 @@
+
+**** 02/02/13 18:28:42 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Bias"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electronics I\O
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "DC Bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EE3114 HWK0 RESISTOR DIVIDER
+R_R1         N00172 N00179  2k TC=0,0 
+R_R2         0 N00179  4k TC=0,0 
+V_V1         N00172 0 10Vdc
+
+**** RESUMING "DC Bias.cir" ****
+.END
+
+**** 02/02/13 18:28:42 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Bias"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electronics I\O
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00172)   10.0000 (N00179)    6.6667 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.667E-03
+
+    TOTAL POWER DISSIPATION   1.67E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/02/13 18:28:42 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-DC Bias"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electronics I\O
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

@@ -1,0 +1,18 @@
+** Profile: "SCHEMATIC1-V0 function of time"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electronics I\HW\EE3114 HW03 Q05-PSpiceFiles\SCHEMATIC1\V0 function of time.sim ] 
+
+** Creating circuit file "V0 function of time.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 1U 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

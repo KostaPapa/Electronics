@@ -1,0 +1,19 @@
+** Profile: "SCHEMATIC1-VG Sweep"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Electronics I\HW\hw03-pspicefiles\schematic1\vg sweep.sim ] 
+
+** Creating circuit file "VG Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 0 5 0.1 
++ V_VG LIST 0, 3.0, 3.5, 4.0, 4.5, 5.0 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

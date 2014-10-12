@@ -1,0 +1,5 @@
+* source HW03
+X_Q1         N00118 N00111 0 0 awbvn2222 PARAMS:                               
++                 
+V_VG         N00111 0 DC 3v  
+V_V1         N00118 0 DC 5v  

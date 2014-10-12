@@ -1,0 +1,114 @@
+
+**** 02/21/13 11:06:06 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V0 function of time"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Ele
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "V0 function of time.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\OrCAD\OrCAD_16.3_Demo\tools\PSpice\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 5m 0 1U 
+.PROBE V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source EE3114 HW03 Q05
+R_R1         N00987 N00378  200 TC=0,0 
+C_C1         N00412 N00378 5000uF TC=0
+I_I2         N00419 N00412 DC 10mA  
+V_V6         N00419 0 5V
+X_D1         N00412 0 awb1n4148 PARAMS:                
+V_V7         N00987 0  
++SIN 0 50mV 1k 0 0 0
+
+**** RESUMING "V0 function of time.cir" ****
+.END
+
+**** 02/21/13 11:06:06 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V0 function of time"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Ele
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_D1.model22    
+          IS    1.000000E-09 
+           N    1.55         
+          BV  120            
+         IBV    1            
+          RS     .5          
+          TT    5.000000E-09 
+         CJO    1.850000E-12 
+          VJ     .65         
+           M     .18         
+
+
+**** 02/21/13 11:06:06 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V0 function of time"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Ele
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00378)    0.0000 (N00412)     .6512 (N00419)    5.0000 (N00987)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V6        -1.000E-02
+    V_V7         0.000E+00
+
+    TOTAL POWER DISSIPATION   5.00E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/21/13 11:06:06 ******** PSpice Lite (June 2009) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-V0 function of time"  [ C:\Users\kpapa01\Desktop\NYU POLY\SEMESTERS\NYU SPRING 13\EE3114 Fundamentals of Ele
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .27
+
